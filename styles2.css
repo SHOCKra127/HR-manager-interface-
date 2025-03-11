@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(resources/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf), 
+   }
+
+* {
+    font-family: 'Inter', serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border {
+    border-color: #e5e7ebff; 
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    width: 100%;
+    height: 64px;
+    justify-content: space-between;
+    border-color: #e5e7ebff; 
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}
+
+.container-h3 {
+    width: 280px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-h3 img {
+    width: 30px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+.container-settings-panel {
+    width: 50px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: 'Inter', serif;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+input {
+    font-family: 'Inter', serif;
+}
+
+h3 {
+    font-family: 'Inter', serif;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Inter', serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h5 {
+    font-family: 'Inter', serif;
+    font-size: normal;  
+}
+
+.gray {
+    color: #6B7280;
+}
+
+.blue {
+    color: #2563EB;
+}
+
+main {
+    margin-top: 53px;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 768px;
+    height: 1260px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.steps {
+    display: flex;
+    width: 1248px;
+    height: 71px;
+    justify-content: center;
+}
+
+.item-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1248px;
+    height: 71px;
+}
+
+.item-step img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 68px;
+    margin: 24px;
+}
+
+input {
+    margin-top: 4px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+
+input:focus {
+    border-color: #2563EB; 
+}
+
+.form-text {
+    padding-left: 20px;
+    width: 704px;
+    padding-bottom: 17px;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2563EB;
+    color: #fff;
+    width: 276px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-1 img{
+    width: 14px;
+    height: 16px;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+
+.new-form {
+    display: flex;
+    align-items: center;
+}
+
+.next-or-info {
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.new-form img {
+    width: 14px;
+    height: 16px;
+    margin-right: 9px;
+}
+
+.experience {
+    width: 728px;
+    margin-top: 26px;
+    margin-left: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.personal-information-experience {
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.personal-information-experience:last-child {
+    margin-left: 10px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}

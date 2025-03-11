@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(resources/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf), 
+   }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.td-main {
+    font-size: 12px;
+}
+
+td {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+.gray {
+    color: #6B7280;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+    width: 100%;
+    height: 64px;
+    justify-content: space-between;
+    border-color: #e5e7ebff; 
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}
+
+.container-h3 {
+    width: 280px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-h3 img {
+    width: 30px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+.container-settings-panel {
+    width: 50px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aside {
+    height: auto;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    border-color: #e5e7ebff; 
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    padding-top: 22px;
+}
+
+.panel-main {
+    width: 240px;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+.panel {
+    width: 240px;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+.panel2 {
+    width: 240px;
+    height: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 24.5px;
+}
+
+.panel2 img {
+    margin-right: 12px;
+}
+
+.panel-main img {
+    margin-right: 12px;
+}
+
+.panel img {
+    margin-right: 12px;
+}

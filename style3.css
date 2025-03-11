@@ -1,0 +1,151 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+     
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  
+  }
+
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+  }
+  
+  /*Стилизация логотипа*/
+  header .logo{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Выстраивание списков в ряд и расположение хедера к верхней части экрана*/
+  header nav ul li{
+    position: relative;
+    float: left;
+  }
+  header nav ul li a{
+    color: black;
+    font-size: 16px;
+    
+  }
+  
+  body {
+ 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+    background: #ffffff;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(131, 45, 45, 0.2);
+}
+
+.sidebar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background: #ececec;
+    
+}
+
+.content {
+    margin-left: 220px;
+     padding: 20px;
+}
+
+.status-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.recent-applications,
+.upcoming-interviews {
+   margin-top: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}

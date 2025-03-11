@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./candidates.css">
+    <title>frame1</title>
+</head>
+<body>
+    <nav>
+            <div class="container-h3">
+                <img src="resources/logo.png" alt="logo">
+                <h3>Заявка отдела кадров</h3>
+            </div>
+
+            <div class="container-settings-panel">
+                <img src="./resources/alerts.png" alt="alerts">
+                <img src="./resources/login.png" alt="login">
+                <div class="nav-text"><p class="nav-name">HR Manager</p></div>
+       </div>
+    </nav>
+
+    <div class="container">
+        <div class="aside">
+            <div class="panel-main">
+                <img src="./resources/home-gray.png" alt="home">
+                <a href="main.html" >Панель управления</a>
+            </div>
+
+            <div class="panel bg-blue">
+                <img src="./resources/applicant.png" alt="applicant">
+                <a href="candidates.html">Кандидаты</a>
+            </div>
+
+            <div class="panel2">
+                <img src="./resources/interview.png" alt="interview">
+                <a href="interview.html">Интервью</a>
+            </div>
+
+            <div class="panel3">
+                <img src="./resources/interview.png" alt="black_box">
+                <a href="#">Черный список</a>    
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+             <h1>
+              Кандидаты
+             </h1>
+             <div class="actions">
+              <i class="fas fa-search">
+              </i>
+              <button>
+               + Добавить
+              </button>
+             </div>
+            </div>
+            <div class="search-bar">
+             <input placeholder="Поиск кандидатов..." type="text"/>
+             <div>
+              <select>
+               <option value="1">
+                Все должности
+               </option>
+               <option value="2">
+                Software Engineer
+               </option>
+               <option value="3">
+                Product Manager
+               </option>
+               <option value="4">
+                UI Designer
+               </option>
+              </select>
+              <select>
+               <option value="01">
+                Все статусы
+               </option>
+               <option value="02">
+                Ожидание
+               </option>
+               <option value="03">
+                Запланирована
+               </option>
+               <option value="04">
+                Новое
+               </option>
+               <option value="05">
+                Резерв
+               </option>
+              </select>
+             </div>
+            </div>
+            <table>
+             <thead>
+              <tr>
+               <th>
+                Кандидаты
+               </th>
+               <th>
+                Должность
+               </th>
+               <th>
+                Статус
+               </th>
+               <th>
+                Дата
+               </th>
+               <th>
+                Действия
+               </th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="flex items-center">
+                <img alt="User avatar" height="40" src="resources/person.png" width="40"/>
+                <div>
+                 <div>
+                  Имя Фамилия
+                 </div>
+                 <div class="text-gray-500 text-sm">
+                  test@gmail.com
+                 </div>
+                </div>
+               </td>
+               <td>
+                Software Engineer
+               </td>
+               <td>
+                <span class="status status-waiting">
+                 Ожидание
+                </span>
+               </td>
+               <td>
+                Янв 15, 2025
+               </td>
+               <td>
+                <i class="fas fa-ellipsis-h text-gray-500">
+                </i>
+               </td>
+              </tr>
+              <tr>
+               <td class="flex items-center">
+                <img alt="User avatar" height="40" src="resources/person.png" width="40"/>
+                <div>
+                 <div>
+                  Имя Фамилия
+                 </div>
+                 <div class="text-gray-500 text-sm">
+                  test@gmail.com
+                 </div>
+                </div>
+               </td>
+               <td>
+                Product Manager
+               </td>
+               <td>
+                <span class="status status-active">
+                 Запланирована
+                </span>
+               </td>
+               <td>
+                Янв 12, 2025
+               </td>
+               <td>
+                <i class="fas fa-ellipsis-h text-gray-500">
+                </i>
+               </td>
+              </tr>
+              <tr>
+               <td class="flex items-center">
+                <img alt="User avatar" height="40" src="resources/person.png" width="40"/>
+                <div>
+                 <div>
+                  Имя Фамилия
+                 </div>
+                 <div class="text-gray-500 text-sm">
+                  test@gmail.com
+                 </div>
+                </div>
+               </td>
+               <td>
+                UI Designer
+               </td>
+               <td>
+                <span class="status status-new">
+                 Новое
+                </span>
+               </td>
+               <td>
+                Янв 10, 2025
+               </td>
+               <td>
+                <i class="fas fa-ellipsis-h text-gray-500">
+                </i>
+               </td>
+              </tr>
+              <tr>
+               <td class="flex items-center">
+                <img alt="User avatar" height="40" src="resources/person.png" width="40"/>
+                <div>
+                 <div>
+                  Имя Фамилия
+                 </div>
+                 <div class="text-gray-500 text-sm">
+                  test@gmail.com
+                 </div>
+                </div>
+               </td>
+               <td>
+                UI Designer
+               </td>
+               <td>
+                <span class="status status-review">
+                 Резерв
+                </span>
+               </td>
+               <td>
+                Янв 10, 2025
+               </td>
+               <td>
+                <i class="fas fa-ellipsis-h text-gray-500">
+                </i>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+</body>
+</html>
